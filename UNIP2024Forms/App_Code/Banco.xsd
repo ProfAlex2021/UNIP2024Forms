@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Banco" targetNamespace="http://tempuri.org/Banco.xsd" xmlns:mstns="http://tempuri.org/Banco.xsd" xmlns="http://tempuri.org/Banco.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Banco" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="Banco" msprop:Generator_DataSetName="Banco">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DtPessoa" msprop:Generator_RowEvHandlerName="DtPessoaRowChangeEventHandler" msprop:Generator_RowDeletedName="DtPessoaRowDeleted" msprop:Generator_RowDeletingName="DtPessoaRowDeleting" msprop:Generator_RowEvArgName="DtPessoaRowChangeEvent" msprop:Generator_TablePropName="DtPessoa" msprop:Generator_RowChangedName="DtPessoaRowChanged" msprop:Generator_RowChangingName="DtPessoaRowChanging" msprop:Generator_TableClassName="DtPessoaDataTable" msprop:Generator_RowClassName="DtPessoaRow" msprop:Generator_TableVarName="tableDtPessoa" msprop:Generator_UserTableName="DtPessoa">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Nome" msprop:Generator_ColumnPropNameInRow="Nome" msprop:Generator_ColumnPropNameInTable="NomeColumn" msprop:Generator_ColumnVarNameInTable="columnNome" msprop:Generator_UserColumnName="Nome" type="xs:string" minOccurs="0" />
+              <xs:element name="Email" msprop:Generator_ColumnPropNameInRow="Email" msprop:Generator_ColumnPropNameInTable="EmailColumn" msprop:Generator_ColumnVarNameInTable="columnEmail" msprop:Generator_UserColumnName="Email" type="xs:string" minOccurs="0" />
+              <xs:element name="Idade" msprop:Generator_ColumnPropNameInRow="Idade" msprop:Generator_ColumnPropNameInTable="IdadeColumn" msprop:Generator_ColumnVarNameInTable="columnIdade" msprop:Generator_UserColumnName="Idade" type="xs:unsignedShort" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
